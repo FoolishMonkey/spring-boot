@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.3.0.M1</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.wisely</groupId>
+    <artifactId>ch-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>spring boot demo</name>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <docker.registry>10.253.6.113:5000/</docker.registry>
+        <docker.repository>ms</docker.repository>
+        <proxool.version>0.9.1</proxool.version>
+        <c3p0.version>0.9.5.2</c3p0.version>
+        <druid.version>1.0.19</druid.version>
+    </properties>
+
+    <modules>
+       <module>ch12</module>
+       <module>ch11_3</module>
+	   <module>ch11_1</module>
+	   <module>ch10war</module>
+	   <module>ch10docker</module>
+	   <module>ch10_4</module>
+	   <module>ch10</module>
+	   <module>ch9_4</module>
+	   <module>ch9_3_5</module>
+	   <module>ch9_3_4</module>
+	   <module>ch9_2</module>
+	   <module>ch9_1</module>
+	   <module>ch8_6_2</module>
+	   <module>ch8_6_1</module>
+	   <module>ch8_5</module>
+	   <module>ch8_4</module>
+	   <module>ch8_3</module>
+	   <module>ch8_2</module>
+	   <module>ch7_7</module>
+	   <module>ch7_6</module>
+	   <module>ch7_4</module>
+	   <module>ch7_2</module>
+	   <module>ch6_5</module>
+	   <module>ch6_4</module>
+	   <module>ch6_2_3</module>
+	   <module>ch5_2_3</module>
+	   <module>ch5_2_2</module>
+	   <module>highlight_springmvc4</module>
+	   <module>highlight_spring4</module>
+    </modules>
+</project>
