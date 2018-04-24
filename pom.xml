@@ -52,5 +52,6 @@
 	   <module>ch5_2_2</module>
 	   <module>highlight_springmvc4</module>
 	   <module>highlight_spring4</module>
+		<module>spring-boot-starter-hello</module>
     </modules>
 </project>
